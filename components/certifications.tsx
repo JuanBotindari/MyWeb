@@ -14,56 +14,27 @@ interface Certification {
   description: string
 }
 
-const certifications: Certification[] = [
-  {
-    id: "1",
-    title: "AWS Certified Machine Learning - Specialty",
-    issuer: "Amazon Web Services",
-    date: "2024",
-    credentialUrl: "#",
-    description:
-      "Validates expertise in building, training, tuning, and deploying machine learning models using AWS Cloud.",
-  },
-  {
-    id: "2",
-    title: "Google Cloud Professional ML Engineer",
-    issuer: "Google Cloud",
-    date: "2023",
-    credentialUrl: "#",
-    description:
-      "Demonstrates ability to design, build, and productionize ML models on Google Cloud Platform.",
-  },
-  {
-    id: "3",
-    title: "Deep Learning Specialization",
-    issuer: "DeepLearning.AI",
-    date: "2023",
-    credentialUrl: "#",
-    description:
-      "Five-course specialization covering neural networks, CNNs, RNNs, and sequence models.",
-  },
-  {
-    id: "4",
-    title: "TensorFlow Developer Certificate",
-    issuer: "Google",
-    date: "2022",
-    credentialUrl: "#",
-    description:
-      "Proficiency in using TensorFlow to solve deep learning and ML problems.",
-  },
-  {
-    id: "5",
-    title: "LangChain for LLM Application Development",
-    issuer: "DeepLearning.AI",
-    date: "2024",
-    credentialUrl: "#",
-    description:
-      "Building applications with LLMs using prompts, parsers, memory, chains, and agents.",
-  },
-]
+import contentData from "@/data/content.json"
+
+interface Certification {
+  id: string
+  title: string
+  issuer: string
+  date: string
+  credentialUrl?: string
+  description: string
+}
 
 export function Certifications() {
-  const { t } = useI18n()
+  const { t, language } = useI18n()
+  const certifications = (contentData as any)[language].education.map((item: any) => ({
+    id: item.id,
+    title: item.title,
+    issuer: item.institution,
+    date: item.date,
+    description: item.description,
+    credentialUrl: item.credentialUrl,
+  })) as Certification[]
   const [hoveredId, setHoveredId] = useState<string | null>(null)
 
   return (

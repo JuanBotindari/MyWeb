@@ -11,7 +11,7 @@ export function MagneticCursor() {
   const cursorX = useMotionValue(0)
   const cursorY = useMotionValue(0)
 
-  const springConfig = { damping: 25, stiffness: 300 }
+  const springConfig = { damping: 15, stiffness: 400 }
   const cursorXSpring = useSpring(cursorX, springConfig)
   const cursorYSpring = useSpring(cursorY, springConfig)
 

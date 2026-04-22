@@ -1,0 +1,198 @@
+{
+  "en": {
+    "experiences": [
+      {
+        "id": "1",
+        "company": "Santander T&O",
+        "role": "Data Engineer",
+        "period": "10/23 - Present",
+        "description": [
+          "Developed Control Models for Insurance, designing and implementing tailored systems to manage risks.",
+          "Optimized financial viability and ensured regulatory compliance through automated data systems.",
+          "Utilized Python, SQL, and Big Data technologies like Databricks and PySpark."
+        ],
+        "technologies": ["Python", "SQL", "Databricks", "PySpark", "Big Data"]
+      },
+      {
+        "id": "2",
+        "company": "National Institute of Statistics and Censuses (INDEC)",
+        "role": "Automation Manager",
+        "period": "01/23 - 10/23",
+        "description": [
+          "Reduced error margin by 55% and reporting times by 72% through automation.",
+          "Launched an application automating data processes across 45+ different tasks.",
+          "Standardized data entry from 11 diverse sources into a unified format.",
+          "Implemented dashboards enabling faster decision-making."
+        ],
+        "technologies": ["Python", "Automation", "Data Modeling", "Dashboards"]
+      },
+      {
+        "id": "3",
+        "company": "Accenture Service Center",
+        "role": "Data Strategy Consultant",
+        "period": "11/18 - 07/20",
+        "description": [
+          "Measured 14+ KPIs and introduced metrics to C-level executives and 170,000 stakeholders.",
+          "Executed in-depth analysis and provided insights into operations and production processes.",
+          "Evaluated course impact through A/B testing."
+        ],
+        "technologies": ["Data Strategy", "KPIs", "A/B Testing", "Analytics"]
+      }
+    ],
+    "education": [
+      {
+        "id": "edu-1",
+        "institution": "Barcelona School of Management (UPF)",
+        "title": "Master in Business Analytics",
+        "date": "09/25 - 07/26",
+        "description": "Focus on advanced analytics, data modeling, and AI for strategic impact.",
+        "credentialUrl": "/Diploma in Business Analytics - Juan Ignacio Botindari.pdf"
+      },
+      {
+        "id": "edu-2",
+        "institution": "Esade Business & Law School (ESADE)",
+        "title": "Executive Master in Information and Business Analytics",
+        "date": "05/22 - 12/23",
+        "description": "Oriented towards Data Science, Big Data, BI, and Machine Learning."
+      },
+      {
+        "id": "edu-3",
+        "institution": "Universidad Argentina de la Empresa (UADE)",
+        "title": "Degree in Economics",
+        "date": "08/15 - 05/20",
+        "description": "Specialized in Finance.",
+        "credentialUrl": "/Degree in Economics - Juan Ignacio Botindari.pdf"
+      }
+    ],
+    "projects": [
+      {
+        "id": "p1",
+        "title": "Data Automation Application",
+        "type": "project",
+        "date": "2023",
+        "shortDescription": "Built an application to automate data processes across 45+ distinct tasks.",
+        "fullDescription": "Designed and deployed a comprehensive automation solution at INDEC to handle diverse data sources and complex processing requirements. This resulted in a 72% reduction in report generation time and significantly improved data integrity across the organization.",
+        "tags": ["Python", "Automation", "INDEC", "Process Optimization"],
+        "externalUrl": ""
+      },
+      {
+        "id": "p2",
+        "title": "Insurance Risk Control Models",
+        "type": "paper",
+        "date": "2024",
+        "shortDescription": "Implementing automated risk management systems for the insurance sector.",
+        "fullDescription": "Developed specialized data models at Santander T&O to monitor and control insurance risks. The system ensures real-time compliance with regulatory standards and optimizes financial viability through predictive analytics and robust data pipelines.",
+        "tags": ["Data Engineering", "Databricks", "Fintech", "Compliance"],
+        "externalUrl": ""
+      },
+      {
+        "id": "p3",
+        "title": "Strategic KPI Measurement System",
+        "type": "publication",
+        "date": "2020",
+        "shortDescription": "Analytics framework for monitoring 14+ global KPIs across 170k stakeholders.",
+        "fullDescription": "Created an end-to-end analytics platform at Accenture to track and visualize strategic KPIs. Implementation included A/B testing methodologies to measure the impact of corporate initiatives and provided actionable insights to C-suite executives.",
+        "tags": ["Strategy", "KPIs", "Accenture", "A/B Testing"],
+        "externalUrl": ""
+      }
+    ]
+  },
+  "es": {
+    "experiences": [
+      {
+        "id": "1",
+        "company": "Santander T&O",
+        "role": "Data Engineer",
+        "period": "10/23 - Presente",
+        "description": [
+          "Desarrollo de modelos de control para el sector seguros, incluyendo el diseño e implementación de sistemas personalizados.",
+          "Optimización de la viabilidad financiera y aseguramiento del cumplimiento normativo.",
+          "Uso extensivo de Python, SQL, Databricks y PySpark para el manejo de Big Data."
+        ],
+        "technologies": ["Python", "SQL", "Databricks", "PySpark", "Big Data"]
+      },
+      {
+        "id": "2",
+        "company": "Instituto Nacional de Estadística y Censos (INDEC)",
+        "role": "Automation Manager",
+        "period": "01/23 - 10/23",
+        "description": [
+          "Reducción del margen de error en un 55% y de los tiempos de elaboración de informes en un 72%.",
+          "Creación de una aplicación para automatizar procesos de datos en más de 45 tareas distintas.",
+          "Unificación de Master Data de 11 fuentes con estructuras diversas hacia un formato unificado.",
+          "Implementación de dashboards para acelerar la toma de decisiones estratégicas."
+        ],
+        "technologies": ["Python", "Automatización", "Modelado de Datos", "Dashboards"]
+      },
+      {
+        "id": "3",
+        "company": "Accenture Service Center",
+        "role": "Consultor de Estrategia de Datos",
+        "period": "11/18 - 07/20",
+        "description": [
+          "Medición de más de 14 KPIs presentados a ejecutivos C-level y 170.000 stakeholders.",
+          "Análisis profundo de operaciones y procesos de producción.",
+          "Evaluación de impacto de cursos mediante A/B testing."
+        ],
+        "technologies": ["Estrategia de Datos", "KPIs", "A/B Testing", "Analytics"]
+      }
+    ],
+    "education": [
+      {
+        "id": "edu-1",
+        "institution": "Barcelona School of Management (UPF)",
+        "title": "Master in Business Analytics",
+        "date": "09/25 - 07/26",
+        "description": "Enfoque en analítica avanzada, modelado de datos e IA para impacto estratégico.",
+        "credentialUrl": "/Diploma in Business Analytics - Juan Ignacio Botindari.pdf"
+      },
+      {
+        "id": "edu-2",
+        "institution": "Esade Business & Law School (ESADE)",
+        "title": "Executive Master in Information and Business Analytics",
+        "date": "05/22 - 12/23",
+        "description": "Orientado a Data Science, Big Data, BI y Machine Learning."
+      },
+      {
+        "id": "edu-3",
+        "institution": "Universidad Argentina de la Empresa (UADE)",
+        "title": "Licenciatura en Economía",
+        "date": "08/15 - 05/20",
+        "description": "Especialización en Finanzas.",
+        "credentialUrl": "/Degree in Economics - Juan Ignacio Botindari.pdf"
+      }
+    ],
+    "projects": [
+      {
+        "id": "p1",
+        "title": "Aplicación de Automatización de Datos",
+        "type": "project",
+        "date": "2023",
+        "shortDescription": "Construcción de una aplicación para automatizar procesos en más de 45 tareas.",
+        "fullDescription": "Diseñé y desplegué una solución integral de automatización en el INDEC para manejar diversas fuentes de datos. Resultó en una reducción del 72% en el tiempo de generación de informes y mejoró significativamente la integridad de los datos.",
+        "tags": ["Python", "Automatización", "INDEC", "Optimización"],
+        "externalUrl": ""
+      },
+      {
+        "id": "p2",
+        "title": "Modelos de Control de Riesgos (Seguros)",
+        "type": "paper",
+        "date": "2024",
+        "shortDescription": "Implementación de sistemas automatizados de gestión de riesgos para seguros.",
+        "fullDescription": "Desarrollo de modelos de datos especializados en Santander T&O para monitorear riesgos. El sistema asegura el cumplimiento normativo en tiempo real y optimiza la viabilidad financiera mediante analítica predictiva.",
+        "tags": ["Data Engineering", "Databricks", "Fintech", "Compliance"],
+        "externalUrl": ""
+      },
+      {
+        "id": "p3",
+        "title": "Sistema Estratégico de Medición de KPIs",
+        "type": "publication",
+        "date": "2020",
+        "shortDescription": "Framework analítico para el monitoreo de +14 KPIs globales.",
+        "fullDescription": "Creación de una plataforma analítica end-to-end en Accenture para el seguimiento de KPIs estratégicos. Incluyó metodologías de A/B testing para medir el impacto de iniciativas corporativas.",
+        "tags": ["Estrategia", "KPIs", "Accenture", "A/B Testing"],
+        "externalUrl": ""
+      }
+    ]
+  }
+}

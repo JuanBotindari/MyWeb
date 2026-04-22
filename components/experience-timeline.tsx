@@ -14,62 +14,20 @@ interface Experience {
   technologies: string[]
 }
 
-const experiences: Experience[] = [
-  {
-    id: "1",
-    company: "TechCorp AI",
-    role: "Senior AI Engineer",
-    period: "2023",
-    description: [
-      "Led development of production LLM systems serving 10M+ users",
-      "Architected RAG pipelines reducing hallucination by 40%",
-      "Implemented fine-tuning strategies for domain-specific models",
-      "Mentored team of 5 engineers on ML best practices",
-    ],
-    technologies: ["PyTorch", "LangChain", "OpenAI", "Pinecone", "AWS"],
-  },
-  {
-    id: "2",
-    company: "DataFlow Systems",
-    role: "Machine Learning Engineer",
-    period: "2021 - 2023",
-    description: [
-      "Built real-time ML inference pipelines processing 1M events/day",
-      "Developed NLP models for sentiment analysis and entity extraction",
-      "Created automated model monitoring and retraining systems",
-      "Reduced model deployment time by 60% through MLOps automation",
-    ],
-    technologies: ["Python", "TensorFlow", "Kubernetes", "Apache Kafka", "GCP"],
-  },
-  {
-    id: "3",
-    company: "InnovateTech",
-    role: "Data Scientist",
-    period: "2019 - 2021",
-    description: [
-      "Developed predictive models for customer churn with 92% accuracy",
-      "Built recommendation systems increasing user engagement by 35%",
-      "Created data pipelines processing 50TB+ of structured data",
-      "Presented insights to C-suite executives for strategic decisions",
-    ],
-    technologies: ["Python", "Scikit-learn", "SQL", "Tableau", "Spark"],
-  },
-  {
-    id: "4",
-    company: "StartupX",
-    role: "Junior ML Engineer",
-    period: "2018 - 2019",
-    description: [
-      "Implemented computer vision models for quality inspection",
-      "Built chatbot systems using early NLP techniques",
-      "Contributed to open-source ML libraries",
-    ],
-    technologies: ["Python", "OpenCV", "NLTK", "Docker"],
-  },
-]
+import contentData from "@/data/content.json"
+
+interface Experience {
+  id: string
+  company: string
+  role: string
+  period: string
+  description: string[]
+  technologies: string[]
+}
 
 export function ExperienceTimeline() {
-  const { t } = useI18n()
+  const { t, language } = useI18n()
+  const experiences = (contentData as any)[language].experiences as Experience[]
   const [expandedId, setExpandedId] = useState<string | null>(null)
 
   const toggleExpand = (id: string) => {
@@ -124,7 +82,9 @@ function TimelineEntry({
   onToggle: () => void
   presentLabel: string
 }) {
-  const isPresent = experience.period === "2023"
+  const isPresent =
+    experience.period.toLowerCase().includes("present") ||
+    experience.period.toLowerCase().includes("presente")
 
   return (
     <motion.div

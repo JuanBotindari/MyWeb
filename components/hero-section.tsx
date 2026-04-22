@@ -66,8 +66,8 @@ export function HeroSection() {
             className="rounded-full px-8 border-white/10 hover:bg-white/5 font-medium"
             onClick={() => {
               const link = document.createElement("a")
-              link.href = "/cv.pdf"
-              link.download = "AI_Specialist_CV.pdf"
+              link.href = t.nav.cvFile
+              link.download = t.nav.cvFile.split("/").pop() || "CV.pdf"
               link.click()
             }}
           >

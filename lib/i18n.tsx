@@ -11,6 +11,7 @@ interface Translations {
     certifications: string
     contact: string
     downloadCV: string
+    cvFile: string
     myWork: string
   }
   hero: {
@@ -69,6 +70,7 @@ const translations: Record<Language, Translations> = {
       certifications: "Certifications",
       contact: "Contact",
       downloadCV: "Download CV",
+      cvFile: "/Curriculum Vitae (EN) - Juan Ignacio Botindari.pdf",
       myWork: "My Work",
     },
     hero: {
@@ -125,6 +127,7 @@ const translations: Record<Language, Translations> = {
       certifications: "Certificaciones",
       contact: "Contacto",
       downloadCV: "Descargar CV",
+      cvFile: "/Curriculum Vitae (ES) - Juan Ignacio Botindari.pdf",
       myWork: "Mi Trabajo",
     },
     hero: {
