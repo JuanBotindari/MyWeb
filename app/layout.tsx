@@ -16,25 +16,20 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'AI & LLM Specialist | Portfolio',
   description: 'Building intelligent systems that transform how humans interact with technology. Specializing in Large Language Models, Neural Networks, and Production AI Systems.',
-  generator: 'v0.app',
   keywords: ['AI', 'LLM', 'Machine Learning', 'Neural Networks', 'Deep Learning', 'Python', 'PyTorch', 'TensorFlow'],
   authors: [{ name: 'AI Specialist' }],
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/JB-lightmode.PNG',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/JB-darkmode.PNG',
         media: '(prefers-color-scheme: dark)',
       },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
     ],
-    apple: '/apple-icon.png',
+    apple: '/JB-darkmode.PNG',
   },
   openGraph: {
     title: 'AI & LLM Specialist | Portfolio',
