@@ -7,7 +7,7 @@ import { useI18n } from "@/lib/i18n"
 
 const socialLinks = [
   { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/juan-botindari/", label: "LinkedIn" },
   { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
 ]
 
@@ -37,9 +37,9 @@ export function ContactSection() {
             className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-8 font-medium mb-8"
             asChild
           >
-            <a href="mailto:hello@example.com" className="flex items-center gap-2">
+            <a href="mailto:nacho4175@hotmail.com" className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
-              hello@example.com
+              nacho4175@hotmail.com
             </a>
           </Button>
 

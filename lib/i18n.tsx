@@ -85,8 +85,8 @@ const translations: Record<Language, Translations> = {
       currentFocusText: "Developing production-grade LLM applications with focus on RAG systems, fine-tuning, and AI agents for enterprise solutions.",
       techStack: "Tech Stack",
       liveStatus: "Live Status",
-      available: "Available for opportunities",
-      location: "San Francisco, CA",
+      available: "Developing opportunities",
+      location: "Barcelona, Spain",
     },
     experience: {
       title: "Experience",
@@ -142,8 +142,8 @@ const translations: Record<Language, Translations> = {
       currentFocusText: "Desarrollando aplicaciones LLM de nivel productivo con enfoque en sistemas RAG, fine-tuning y agentes de IA para soluciones empresariales.",
       techStack: "Stack Tecnológico",
       liveStatus: "Estado Actual",
-      available: "Disponible para oportunidades",
-      location: "San Francisco, CA",
+      available: "Desarrollando oportunidades",
+      location: "Barcelona, España",
     },
     experience: {
       title: "Experiencia",
