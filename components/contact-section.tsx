@@ -27,9 +27,7 @@ export function ContactSection() {
             {t.nav.contact}
           </h2>
           <p className="text-muted-foreground mb-8 leading-relaxed">
-            {t.language === "en"
-              ? "Interested in working together or have a question about AI? Let's connect and explore the possibilities."
-              : "¿Interesado en trabajar juntos o tienes una pregunta sobre IA? Conectemos y exploremos las posibilidades."}
+            {t.contact.description}
           </p>
 
           <Button
@@ -72,7 +70,7 @@ export function ContactSection() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mt-24 pt-8 border-t border-white/10"
         >
-          <p className="text-sm text-muted-foreground font-mono">
+          <p className="text-sm text-muted-foreground font-mono" suppressHydrationWarning>
             {new Date().getFullYear()} AI Specialist Portfolio
           </p>
         </motion.footer>

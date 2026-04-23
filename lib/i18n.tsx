@@ -60,6 +60,9 @@ interface Translations {
     viewDetails: string
     backToHome: string
   }
+  contact: {
+    description: string
+  }
 }
 
 const translations: Record<Language, Translations> = {
@@ -119,6 +122,9 @@ const translations: Record<Language, Translations> = {
       viewDetails: "View Details",
       backToHome: "Back to Home",
     },
+    contact: {
+      description: "Interested in working together or have a question about AI? Let's connect and explore the possibilities.",
+    },
   },
   es: {
     nav: {
@@ -175,6 +181,9 @@ const translations: Record<Language, Translations> = {
       download: "Descargar",
       viewDetails: "Ver Detalles",
       backToHome: "Volver al Inicio",
+    },
+    contact: {
+      description: "¿Interesado en trabajar juntos o tienes una pregunta sobre IA? Conectemos y exploremos las posibilidades.",
     },
   },
 }
